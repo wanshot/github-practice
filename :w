@@ -1,0 +1,93 @@
+from unittest.mock import patch
+from collections import defaultdict
+from textwrap import dedent
+
+import pytest
+
+
+class TestParseDiff:
+
+    @pytest.fixture
+    def target(self):
+        from github.parsers import parse_diff
+        return parse_diff
+
+    def test_parse_diff_with_include_url_ok(self, target):
+        """ TRACERYのURLを含むDiffの場合、期待した値が返る事 """
+        uid = 'a' * 32
+        diff = dedent("""
+        diff --git a/test.py b/test.py
+        new file mode 100644
+        index 0000000..c767d6c
+        --- /dev/null
+        +++ b/test.py
+        @@ -0,0 +1,1 @@
+        +https://bp.tracery.jp/s/{}
+        """.format(uid))
+        link_dict, uids = target(diff)
+
+        expected = {
+            'link_dict': {
+                'test.py': set([f'https://bp.tracery.jp/s/{uid}'])
+            },
+            'uids': set([uid]),
+        }
+        actual = {
+            'link_dict': link_dict,
+            'uids': uids
+        }
+        assert expected == actual
+
+    def test_parse_diff_with_any_hunk_ok(self, target):
+        """ 複数のhunkに分かれた対象のURLを取得できる事"""
+        uid1 = 'a' * 32
+        uid2 = 'b' * 32
+        diff = dedent("""
+        diff --git a/test.py b/test.py
+        new file mode 100644
+        index 0000000..c767d6c
+        --- /dev/null
+        +++ b/test.py
+        @@ -0,0 +1,1 @@
+        +https://bp.tracery.jp/s/{}
+        @@ -3,3 +4,4 @@
+        +https://bp.tracery.jp/s/{}
+        """.format(uid1. uid2))
+        link_dict, uids = target(diff)
+
+        expected = {
+            'link_dict': {
+                'test.py': set([
+                    f'https://bp.tracery.jp/s/{uid1}'
+                    f'https://bp.tracery.jp/s/{uid2}'
+                ])
+            },
+            'uids': set([uid1, uid2]),
+        }
+        actual = {
+            'link_dict': link_dict,
+            'uids': uids
+        }
+        assert expected == actual
+
+    def test_parse_diff_with_not_include_url_ok(self, target):
+        """ TRACERYのURLを含まないDiffの場合、期待した値が返る事 """
+        diff = dedent("""
+        diff --git a/test.py b/test.py
+        new file mode 100644
+        index 0000000..c767d6c
+        --- /dev/null
+        +++ b/test.py
+        @@ -0,0 +1,1 @@
+        +test diff description
+        """)
+        link_dict, uids = target(diff)
+        expected = {
+            'link_dict': defaultdict(set),
+            'uids': set(),
+        }
+        actual = {
+            'link_dict': link_dict,
+            'uids': uids
+        }
+        assert expected == actual
