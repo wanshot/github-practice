@@ -1,0 +1,19 @@
+import re
+from collections import defaultdict
+
+from unidiff import PatchSet
+
+
+def parse_pr_diff(diff, url):
+    """ Diffに含まれるTRACERYのURL一覧とUID一覧を返す """
+    # + から始まるTRACERYのパーマリンクのみ対象
+    print(url)
+    regex_permalink = re.compile(r'^\+.*http://{}/s/(?P<uid>\w+)'.format(url),
+                                 flags=re.MULTILINE)
+    patch = PatchSet(diff)
+    links = defaultdict(list)
+    for p in patch:
+        uids = regex_permalink.findall(str(p))
+        for uid in uids:
+            links[uid] = p.target_file.lstrip('/b')
+    return links
