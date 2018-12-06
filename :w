@@ -1,0 +1,225 @@
+対象VM一覧
+-----------------
+
+.. csv-table::
+   :header: ホスト名, IP, 備考
+
+   project-ldap,192.168.100.163, 
+   project-backup,192.168.100.222, 
+   project-passwd-change,192.168.100.239, 
+   project-mail,,
+   project-web,,
+   project-db,,
+   project-redmine,,
+   project-repo,,
+
+
+削除対象者: yyyk, shiro, umeda
+
+不明: t_furuse, okadan, kw_park, kuwai, imamura, hit_hata, hit_kumada, atsushi_suzuki
+
+現状
+------------
+
+
+project-ldap
+
+::
+
+   wan@project-ldap:/home$ ll
+   合計 28
+   drwxr-xr-x  7 root        root 4096  9月  7 09:28 ./
+   drwxr-xr-x 23 root        root 4096  3月 13  2015 ../
+   drwxrwxr-x  4 altnight    dev  4096  9月 26  2017 altnight/
+   drwxr-xr-x  3 beproud     dev  4096 10月 12  2012 beproud/
+   drwxrwxr-x  6 shimizukawa dev  4096  9月  7 09:39 shimizukawa/
+   drwxrwxr-x  4 wan         dev  4096  9月  7 09:30 wan/
+   drwxrwxr-x  5 yyyk        dev  4096 11月  1  2017 yyyk/
+
+project-backup
+
+::
+
+   wan@project-backup:/home$ ll
+   合計 32
+   drwxr-xr-x  8 root        root 4096  9月  7 09:35 ./
+   drwxr-xr-x 23 root        root 4096  3月 13  2015 ../
+   drwxrwxr-x  5 altnight    dev  4096  1月 16  2018 altnight/
+   drwxr-xr-x  3 beproud     dev  4096  3月  1  2017 beproud/
+   drwxr-xr-x 14        1005 dev  4096 12月 24  2014 ike/
+   drwxrwxr-x  4 shimizukawa dev  4096  9月  7 09:34 shimizukawa/
+   drwxrwxr-x  4 wan         dev  4096  9月  7 09:35 wan/
+   drwxrwxr-x  6 yyyk        dev  4096 12月 20  2017 yyyk/
+
+project-passwd-change
+
+::
+
+   wan@project-passwd-change:/home$ ll
+   total 36
+   drwxr-xr-x  9 root         root         4096 Sep  7 09:40 ./
+   drwxr-xr-x 22 root         root         4096 Mar 16  2018 ../
+   drwxrwxr-x  4 altnight     dev          4096 Mar 16  2018 altnight/
+   drwxr-xr-x  3 beproud      dev          4096 Jul 12  2015 beproud/
+   drwxrwxr-x  9 ldapchangepw ldapchangepw 4096 Mar 16  2018 ldapchangepw/
+   drwxrwxr-x  5 shimizukawa  dev          4096 Sep  7 09:37 shimizukawa/
+   drwxrwxr-x  4 susumuis     dev          4096 Mar 16  2018 susumuis/
+   drwxrwxr-x  4 wan          dev          4096 Sep  7 09:38 wan/
+   drwxrwxr-x  4 yyyk         dev          4096 Dec  5  2017 yyyk/
+
+project-mail
+
+::
+
+   wan@project-mail:/home$ ll
+   total 32
+   drwxr-xr-x  8 root        root    4096 Mar 15  2018 ./
+   drwxr-xr-x 23 root        root    4096 Oct 25 06:36 ../
+   drwxr-xr-x  5 altnight    dev     4096 Mar 15  2018 altnight/
+   drwxr-xr-x  3 beproud     beproud 4096 Feb 22  2018 beproud/
+   drwxr-xr-x  3 shimizukawa dev     4096 Mar 15  2018 shimizukawa/
+   drwxr-xr-x  3 susumuis    dev     4096 Mar 15  2018 susumuis/
+   drwxr-xr-x  4 wan         dev     4096 Sep  6 17:19 wan/
+   drwxr-xr-x  3 yyyk        dev     4096 Mar 14  2018 yyyk/
+
+project-web
+
+::
+
+   wan@project-web:/home$ ll
+   合計 32
+   drwxr-xr-x  8 root        root 4096  9月  7 10:05 ./
+   drwxr-xr-x 22 root        root 4096  5月 22  2018 ../
+   drwxrwxr-x  4 altnight    dev  4096  6月 15 13:45 altnight/
+   drwxr-xr-x  5 beproud     dev  4096 11月 11 03:00 beproud/
+   drwxrwxr-x  5 shimizukawa dev  4096  8月  2 13:37 shimizukawa/
+   drwxrwxr-x  4 wan         dev  4096  5月 15  2018 wan/
+   drwxrwxr-x  5 xiao        dev  4096 11月 12 09:30 xiao/
+   drwxrwxr-x  5 yyyk        dev  4096 11月  1  2017 yyyk/
+
+project-db
+
+::
+
+   wan@project-db:/home$ ll
+   合計 32
+   drwxr-xr-x  8 root        root 4096  9月  7 10:09 ./
+   drwxr-xr-x 23 root        root 4096 12月 24  2015 ../
+   drwxrwxr-x  4 altnight    dev  4096  4月  2  2018 altnight/
+   drwxr-xr-x  3 beproud     dev  4096 12月 24  2015 beproud/
+   drwxrwxr-x  5 shimizukawa dev  4096 12月 12  2017 shimizukawa/
+   drwxrwxr-x  4 wan         dev  4096 12月 12  2017 wan/
+   drwxrwxr-x  4 xiao        dev  4096  6月  8 13:38 xiao/
+   drwxrwxr-x  5 yyyk        dev  4096 11月  1  2017 yyyk/
+
+project-repo
+
+::
+
+   wan@project-repo:/home$ ll
+   total 52
+   drwxr-xr-x 13 root        root     4096 Sep  7 10:11 ./
+   drwxr-xr-x 25 root        root     4096 Feb 26  2018 ../
+   drwxrwxr-x  5 altnight    dev      4096 Oct 31  2017 altnight/
+   drwxr-xr-x  3 beproud     dev      4096 Jul  5  2016 beproud/
+   drwxrwxr-x  4 cactusman   dev      4096 Oct 21  2014 cactusman/
+   drwxrwxr-x  4 fumi23      dev      4096 May 15  2018 fumi23/
+   drwxrwxr-x  4 hg          hg       4096 Aug 23 00:42 hg/
+   drwxr-xr-x  4 s3backup    s3backup 4096 Aug  8  2014 s3backup/
+   drwxrwxr-x 11 shimizukawa dev      4096 Aug 21 23:05 shimizukawa/
+   drwxrwxr-x  4 shiro       dev      4096 May 15  2018 shiro/
+   drwxrwxr-x  4 wan         dev      4096 Nov 22  2017 wan/
+   drwxrwxr-x  4 xiao        dev      4096 Aug 16 16:36 xiao/
+   drwxrwxr-x  5 yyyk        dev      4096 Nov  1  2017 yyyk/
+
+project-redmine
+
+::
+
+   beproud@project-redmine:/home$ ll
+   total 48
+   drwxr-xr-x 12 root        root     4096 Aug 14 18:33 ./
+   drwxr-xr-x 24 root        root     4096 Aug 16 16:10 ../
+   drwxr-xr-x  4 altnight    dev      4096 Sep  5 14:36 altnight/
+   drwxr-xr-x  3 beproud     beproud  4096 Sep  6 17:29 beproud/
+   drwxr-xr-x  3 fumi23      dev      4096 Aug 14 18:33 fumi23/
+   drwxr-xr-x  3 hg          hg       4096 Aug 13 16:45 hg/
+   drwxr-xr-x  3 rsync       rsync    4096 Aug 14 09:08 rsync/
+   drwxr-xr-x  4 s3backup    s3backup 4096 Aug 29 18:11 s3backup/
+   drwxr-xr-x  4 shimizukawa dev      4096 Aug 27 10:03 shimizukawa/
+   drwxr-xr-x  3 wan         dev      4096 Aug 14 18:33 wan/
+   drwxr-xr-x  6 xiao        dev      4096 Aug 20 10:02 xiao/
+   drwxr-xr-x  4 yyyk        dev      4096 Aug 26 14:03 yyyk/
+
+
+kabe
+
+::
+
+   wan@kabe:/home$ ll
+   合計 228
+   drwxr-xr-x 57 root              root 4096 10月 12 11:13 ./
+   drwxr-xr-x 22 root              root 4096  3月 22  2018 ../
+   drwxrwxr-x  4 923               dev  4096  9月 28 16:59 923/
+   drwxrwxr-x  4 ae35              dev  4096 11月 18  2015 ae35/
+   drwxrwxr-x  4 altnight          dev  4096  7月 30 20:41 altnight/
+   drwxrwxr-x  4 atsushi_suzuki    dev  4096  7月 19 09:55 atsushi_suzuki/
+   drwxr-xr-x  4 beproud           dev  4096 10月 12 10:14 beproud/
+   drwxrwxr-x  5 cactusman         dev  4096  6月 11 16:24 cactusman/
+   drwxrwxr-x  4 checkroth         dev  4096 11月 29  2017 checkroth/
+   drwxrwxr-x  4 crohaco           dev  4096  1月 15  2018 crohaco/
+   drwxrwxr-x  4 emi_fujita        dev  4096  8月  9 09:09 emi_fujita/
+   drwxrwxr-x  4 fumi23            dev  4096 11月  6  2017 fumi23/
+   drwxrwxr-x  5 furi              dev  4096 12月 24  2015 furi/
+   drwxrwxr-x  4 furuta            dev  4096  7月 31 18:20 furuta/
+   drwxrwxr-x  4 haru              dev  4096  4月  3  2015 haru/
+   drwxrwxr-x  3 hirokiky          dev  4096  3月 14  2015 hirokiky/
+   drwxrwxr-x  4 hit_hata          dev  4096  8月  3 15:04 hit_hata/
+   drwxrwxr-x  4 hit_kumada        dev  4096  8月  3 15:22 hit_kumada/
+   drwxrwxr-x  4 hyde              dev  4096  6月 29 11:20 hyde/
+   drwxrwxr-x  4 ikasamt           dev  4096  3月 16  2016 ikasamt/
+   drwxrwxr-x  4 imamura           dev  4096  3月 25  2015 imamura/
+   drwxrwxr-x  4 jamesvandyne      dev  4096  7月  7  2017 jamesvandyne/
+   drwxrwxr-x  4 kai               dev  4096 10月 19 12:46 kai/
+   drwxrwxr-x  4 kameko            dev  4096  4月  7  2017 kameko/
+   drwxrwxr-x  4 kashew_nuts       dev  4096  6月  2  2017 kashew_nuts/
+   drwxrwxr-x  4 kentarou_shima    dev  4096  6月  2  2017 kentarou_shima/
+   drwxrwxr-x  4 kk6               dev  4096  3月  8  2016 kk6/
+   drwxrwxr-x  4 kuwai             dev  4096  4月 17  2017 kuwai/
+   drwxrwxr-x  4 kw_park           dev  4096  9月  3 13:31 kw_park/
+   drwxrwxr-x  4 maehara_yosuke    dev  4096 10月 12  2017 maehara_yosuke/
+   drwxrwxr-x  4 marippe           dev  4096 10月 12 11:17 marippe/
+   drwxrwxr-x  4 matsu             dev  4096 11月 28 16:00 matsu/
+   drwxrwxr-x 13 momi              dev  4096  8月  9 23:51 momi/
+   drwxrwxr-x  3 monjudoh          dev  4096  3月 14  2015 monjudoh/
+   drwxrwxr-x  4 nakagami          dev  4096  3月 16  2017 nakagami/
+   drwxrwxr-x  4 nakamuray         dev  4096  5月 20  2015 nakamuray/
+   drwxrwxr-x  4 nana              dev  4096  3月 26  2018 nana/
+   drwxrwxr-x  3 natsu             dev  4096  3月 14  2015 natsu/
+   drwxrwxr-x  4 okadan            dev  4096  6月 16  2016 okadan/
+   drwxrwxr-x  4 opapy             dev  4096  2月  5  2016 opapy/
+   drwxrwxr-x  6 shimizukawa       dev  4096  8月 27 10:17 shimizukawa/
+   drwxrwxr-x  4 shiro             dev  4096  4月  4  2018 shiro/
+   drwxrwxr-x  4 soojin            dev  4096 10月  1 14:39 soojin/
+   drwxrwxr-x  4 susumuis          dev  4096 11月 14 12:21 susumuis/
+   drwxrwxr-x  4 t_furuse          dev  4096 10月  1 16:45 t_furuse/
+   drwxrwxr-x  4 takanory          dev  4096  5月 26  2015 takanory/
+   drwxrwxr-x  4 tell-k            dev  4096  9月 22  2017 tell-k/
+   drwxrwxr-x  4 tommy             dev  4096  3月 25  2015 tommy/
+   drwxrwxr-x  4 tsuchiya_shinichi dev  4096  4月  4  2016 tsuchiya_shinichi/
+   drwxrwxr-x  3 tsutomu           dev  4096 11月 29  2017 tsutomu/
+   drwxrwxr-x  4 tsuyoshi          dev  4096  3月 27  2018 tsuyoshi/
+   drwxrwxr-x  4 umeda             dev  4096  3月 17  2015 umeda/
+   drwxrwxr-x  3 usei              dev  4096 11月  1  2017 usei/
+   drwxr-xr-x  4 wan               wan  4096 12月 19  2017 wan/
+   drwxrwxr-x  4 xiao              dev  4096  8月 16 14:28 xiao/
+   drwxrwxr-x  4 yusei             dev  4096 11月  1  2017 yusei/
+   drwxrwxr-x  5 yyyk              dev  4096  8月 16 14:18 yyyk/
+
+
+終わります、ペアプロの指摘を修正まで。明日やる事
+```
+* PR解析機能の続き
+* GitHub連携修正
+* インフラ作業
+```
