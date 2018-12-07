@@ -1,1 +1,6 @@
-あいうえお http://6797a4dc.ngrok.io/s/a5b17a1a9c5541449dde14b6fe10b397
+def test():
+    """画像を AWS S3に保存する
+
+    https://tracery.jp/s/bed43eaefdd940b09a517da98ca0183c
+    """
+    pass
