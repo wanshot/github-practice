@@ -2,7 +2,7 @@ print 'Hello Joe'
 print('Hello hoge')
 print('Hello huga')
 sssssssssssssss33
-s
+
 
 http://lvh.me:8000/s/704d1665c5004ae0987e282c67984a9a
 http://06ecc1a7.ngrok.io/s/704d1665c5004ae0987e282c67984a9a
