@@ -9,3 +9,4 @@ new_objects
 
 aaa
 aa
+vnew_objects
