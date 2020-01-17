@@ -10,3 +10,4 @@ new_objects
 aaa
 aa
 vnew_objects
+http://bp.lvh.me:8000/projects/bp/pages/1
