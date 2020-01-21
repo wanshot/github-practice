@@ -38,15 +38,19 @@ http://lvh.me:8000/s/38b73ee3b1104fe2bbf236de46cbbdcf http://lvh.me:8000/s/2b908
 
 パターン7 - 選択範囲のURL
 
-def func():
+def func1():
     """
-    *   機能説明
-    *   機能説明
-    *   機能説明
-    http://lvh.me:8000/s/22250cf0a45f4013b9d210234944e271
+    ### [機能名その１](#toc)
+    *   hoge機能の説明
+    http://lvh.me:8000/s/c088f51acb2942709e8bc363e60877ad
     """
     pass
 
-パターン8 - ページコメントのURL
 
-http://lvh.me:8000/s/775f86e136b34317be81fcd6d778af70
+def func1():
+    """
+    ### [機能名その２](#toc-1)
+    *   huga機能の説明
+    http://lvh.me:8000/s/ef3ef3d4854048bf8f71a0c5786a5f93
+    """
+    pass
