@@ -37,16 +37,3 @@ http://lvh.me:8000/s/38b73ee3b1104fe2bbf236de46cbbdcf http://lvh.me:8000/s/2b908
 
 
 パターン7 - 選択範囲のURL
-
-def func():
-    """
-    *   機能説明
-    *   機能説明
-    *   機能説明
-    http://lvh.me:8000/s/22250cf0a45f4013b9d210234944e271
-    """
-    pass
-
-パターン8 - ページコメントのURL
-
-http://lvh.me:8000/s/775f86e136b34317be81fcd6d778af70
