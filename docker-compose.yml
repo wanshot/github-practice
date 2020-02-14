@@ -1,0 +1,21 @@
+version: '3'
+services:
+
+  wordpress:
+    # https://tracery.dev/s/927d8af6c7994e8b8310b1dcdb88b265
+    image: wordpress
+    container_name: some-wordpress
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_PASSWORD: my-secret-pw
+
+  mysql:
+    image: mysql:5.7
+    container_name: some-mysql
+    # https://tracery.dev/s/627f8ca998934694af34f6ba8514541b
+    restart: always
+    environment:
+      # https://tracery.dev/s/183aa6acfa834bd69c5a2d66b5f8441b
+      MYSQL_ROOT_PASSWORD: my-secret-pw「
