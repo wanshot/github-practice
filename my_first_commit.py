@@ -4,9 +4,18 @@ from django.conf import settings
 
 from core.models import Attachment
 
+from . import api as account_api
+
+# 追加コメント
+# 追加コメント
+# 追加コメント
+
 
 class UserManager(models.Manager):
-    """
+    """http://lvh.me:8000/s/3eb30c48d1fa4b6ebe2bee48d601a2e7
+
+    # さらにURL追記
+    * http://lvh.me:8000/s/3eb30c48d1fa4b6ebe2bee48d601a2e7
     """
     def active(self):
         """有効なユーザのみに絞りこむ
@@ -88,7 +97,7 @@ class User(models.Model):
 
 
 class UserAttachment(models.Model):
-    """http://lvh.me:8000/s/3eb30c48d1fa4b6ebe2bee48d601a2e7
+    """
     """
     attachment = models.ForeignKey(Attachment, verbose_name='ファイル', on_delete=models.CASCADE)
     user = models.ForeignKey(User, verbose_name='ユーザー', on_delete=models.CASCADE)
