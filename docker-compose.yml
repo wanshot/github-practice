@@ -1,0 +1,21 @@
+version: '3'
+services:
+
+  wordpress:
+    # http://lvh.me:8000/s/ca5574e110154362889ee2140747bb1a
+    image: wordpress
+    container_name: some-wordpress
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_PASSWORD: my-secret-pw
+
+  mysql:
+    # http://lvh.me:8000/s/3312510fec344abb92a21e5d71efd02f
+    image: mysql:5.7
+    container_name: some-mysql
+    restart: always
+    # http://lvh.me:8000/s/56db5ca084994e7cb09cc96a8759585c
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw
