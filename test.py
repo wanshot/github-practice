@@ -1,6 +1,6 @@
 def hgoehgoe
     """ 追加された行の文字列がかわった場合 
 
-    * 次ぐのPUSHでこの文字を消した時に、新たにプルリクエストレビューがつけられない事 http://lvh.me:8000/s/5f8f94f7b48d483c8cca5393f99e7324
+    * http://lvh.me:8000/s/5f8f94f7b48d483c8cca5393f99e7324
     """
     pass
