@@ -2,7 +2,9 @@ class User {
 
     constructor (login) {
         this.login = login;
-    }
+    }a
+
+  a
     greet (){
 		// example-utf8.js
         console.log("みなさんこんにちは。私のハンドルネームは " + this.login + " です。よろしくお願いします。");
