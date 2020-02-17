@@ -1,4 +1,5 @@
 class User {
+
     constructor (login) {
         this.login = login;
     }

@@ -1,5 +1,6 @@
 class User {
-    constructor (login) {
+
+  constructor (login) {
         this.login = login;
     }
     greet (){
