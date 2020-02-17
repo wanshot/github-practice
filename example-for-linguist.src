@@ -1,0 +1,12 @@
+class User {
+    constructor (login) {
+        this.login = login;
+    }
+    greet (){
+        // example-for-linguist.src
+        console.log("みなさんこんにちは。私のハンドルネームは " + this.login + " です。よろしくお願いします。");
+    }
+}
+
+const me = new User("lowply");
+me.greet();
