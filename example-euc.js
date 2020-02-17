@@ -7,7 +7,7 @@ class User {
         console.log("みなさんこんにちは。私のハンドルネームは " + this.login + " です。よろしくお願いします。");
     }
 }
-http://bp.lvh.me:8000/projects/bp/pages/9
+http://lvh.me:8000/s/29b407fe87774b0496609535eea67ced
 
 const me = new User("lowply");
 me.greet();
