@@ -4,6 +4,8 @@ class User {
         this.login = login;
     }
 
+  aa
+
     greet (){
         // example-sjis.js
         console.log("みなさんこんにちは。私のハンドルネームは " + this.login + " です。よろしくお願いします。");
