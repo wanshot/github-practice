@@ -5,6 +5,8 @@ class User {
     }
 
   aa
+  a
+  a
 
     greet (){
         // example-sjis.js
