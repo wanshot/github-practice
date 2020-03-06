@@ -1,11 +1,16 @@
 class Page:
-    """https://tracery.dev/s/20ab5c0bcf774736882a0040e6a785ff
+    """URL差し替え
+
+    * https://tracery.dev/s/ff203934d0894bbfb10c47b37b85f9b4
+    * URL追加 -> 2回目のコミットでURL消す -> 3回目のコミットでURL
+    追加
+    * https://tracery.dev/s/e2ad4264dc2341d1a177a8d6e7ce6840
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/pages/25
+        # https://beproud.tracery.dev/projects/wan/pages/21
 
 
 class PageComment:
