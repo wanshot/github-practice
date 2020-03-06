@@ -1,11 +1,13 @@
 class Page:
-    """https://tracery.dev/s/20ab5c0bcf774736882a0040e6a785ff
+    """URL差し替え
+
+    * https://tracery.dev/s/ff203934d0894bbfb10c47b37b85f9b4
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/pages/25
+        # https://beproud.tracery.dev/projects/wan/pages/21
 
 
 class PageComment:
