@@ -2,6 +2,8 @@ class Page:
     """URL差し替え
 
     * https://tracery.dev/s/ff203934d0894bbfb10c47b37b85f9b4
+    * URL追加
+    * https://tracery.dev/s/e2ad4264dc2341d1a177a8d6e7ce6840
     """
 
     def __init__(self):
