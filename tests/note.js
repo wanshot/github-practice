@@ -8,8 +8,8 @@ var gh = new GitHub({
       token: 'MY_OAUTH_TOKEN'
     */
 });
-// パーマリンク
-// http://lvh.me:8000/s/6018dd8ace274eb3911f865da67d466b
+// ノートパーマリンクの差し替え -> 2回目のPUSHで説明にさしかえ
+// http://lvh.me:8000/s/23d24823b4484db7b3aa9e2a731399f6
 
 var me = gh.getUser(); // no user specified defaults to the user for whom credentials were provided
 me.listNotifications(function(err, notifications) {
