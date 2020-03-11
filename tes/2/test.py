@@ -1,21 +1,21 @@
 class Page:
-    """https://tracery.dev/s/20ab5c0bcf774736882a0040e6a785ff
+    """http://lvh.me:8000/s/1daf0729ffbd423a8ed29b3fd849dc65
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/pages/25
+        # http://bp.lvh.me:8000/projects/test/pages/5
 
 
 class PageComment:
-    """https://tracery.dev/s/4a0fcb6aa3784149b387f64187221fa1
+    """http://lvh.me:8000/s/d83a21ba71134555bc79b0adf1ccd428
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/pages/25/#comment-13
+        # http://bp.lvh.me:8000/projects/test/pages/1/#comment-2
 
 
 class Diagram:
@@ -25,11 +25,11 @@ class Diagram:
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/diagrams/50/edit/
+        # http://bp.lvh.me:8000/projects/test/diagrams/2
 
 
 class DiagramItem:
-    """https://tracery.dev/s/183aa6acfa834bd69c5a2d66b5f8441b
+    """http://lvh.me:8000/s/83a5a5f795ae45ddbf6131fadf5b407f
     """
 
     def __init__(self):
@@ -39,7 +39,7 @@ class DiagramItem:
 
 
 class Note:
-    """https://tracery.dev/s/627f8ca998934694af34f6ba8514541b
+    """http://bp.lvh.me:8000/projects/test/diagrams/2/edit/#item-3
     """
 
     def __init__(self):
