@@ -10,7 +10,7 @@ var gh = new GitHub({
 });
 // パーマリンク
 // http://bp.lvh.me:8000/projects/test/databases/1
-
+// http://lvh.me:8000/s/8ef84488f8e44764ac7bec81dbfb2f12
 var me = gh.getUser(); // no user specified defaults to the user for whom credentials were provided
 me.listNotifications(function(err, notifications) {
    // do some stuff
