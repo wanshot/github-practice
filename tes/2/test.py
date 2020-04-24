@@ -1,81 +1,73 @@
 class Page:
-    """https://tracery.dev/s/20ab5c0bcf774736882a0040e6a785ff
+    """http://lvh.me:8000/s/9bd90243d42a4ca4a5dd59f185bfdebe
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/pages/25
 
 
 class PageComment:
-    """https://tracery.dev/s/4a0fcb6aa3784149b387f64187221fa1
+    """http://lvh.me:8000/s/c2ffed0ffdef413d89574e2465729f70
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/pages/25/#comment-13
 
 
 class Diagram:
-    """https://tracery.dev/s/927d8af6c7994e8b8310b1dcdb88b265
+    """http://lvh.me:8000/s/17984fdad3ff4783a41181788ef538b9
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/diagrams/50/edit/
 
 
 class DiagramItem:
-    """https://tracery.dev/s/183aa6acfa834bd69c5a2d66b5f8441b
+    """http://lvh.me:8000/s/48c0d8bfb5fb4525917f51b6199668a0
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/diagrams/50/edit/#item-4
 
 
 class Note:
-    """https://tracery.dev/s/627f8ca998934694af34f6ba8514541b
+    """http://lvh.me:8000/s/018bf772cd954dc5a753db957ed0260b
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/diagrams/50/edit/#note-3
 
 
 class Database:
-    """https://tracery.dev/s/94a0fb2e80a04d598f9ce34e105d6ccd
+    """http://lvh.me:8000/s/01df7d35cc1e40628af0a9b1267f3232
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/databases/5
 
 
 class Table:
-    """https://tracery.dev/s/27a57692b4ef4485a830c268aa84cb31
+    """http://lvh.me:8000/s/ecb5248dea454926ad59883bd4c6cd79
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/databases/5/tables/39/
 
 
 class Column:
-    """ https://tracery.dev/s/f7e0b8ef7e0449faa747b4e5718107f3
+    """http://lvh.me:8000/s/6bd4ecda542c4156a6dbf37e65e9648c
     """
 
     def __init__(self):
         """
         """
-        # https://beproud.tracery.dev/projects/wan/databases/5/tables/39/#column-158
 
 
 class Other:
