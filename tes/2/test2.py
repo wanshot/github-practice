@@ -71,8 +71,9 @@ class Column:
 
 
 class Other:
-    """
+    """a
     """
 
     def __init__(self):
         pass
+
