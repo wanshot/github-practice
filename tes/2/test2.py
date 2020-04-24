@@ -79,10 +79,9 @@ class Column:
         """
 
 
-class Other:
-    """http://lvh.me:8000/s/16668fcfc0f44efc9e425cd83e3b200d
+class PageContent:
+    """http://lvh.me:8000/s/320f83a1986f430daf8b9359e770dc35
     """
 
     def __init__(self):
         pass
-
