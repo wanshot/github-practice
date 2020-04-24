@@ -16,6 +16,15 @@ class PageComment:
         """
 
 
+class Term:
+    """http://lvh.me:8000/s/b1a8531cfbd24e109cf46ddf7b96dfb1
+    """
+
+    def __init__(self):
+        """
+        """
+
+
 class Diagram:
     """http://lvh.me:8000/s/17984fdad3ff4783a41181788ef538b9
     """
@@ -71,7 +80,7 @@ class Column:
 
 
 class Other:
-    """a
+    """http://lvh.me:8000/s/16668fcfc0f44efc9e425cd83e3b200d
     """
 
     def __init__(self):
