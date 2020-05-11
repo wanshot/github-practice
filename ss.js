@@ -21,3 +21,18 @@ http://lvh.me:8000/s/e57a7c9b2ec74d73a63337501dbad763
 
 
 http://lvh.me:8000/s/e5f8f9f6ae9341b98df60aa4d6de3274
+
+
+データベース
+http://lvh.me:8000/s/e57a7c9b2ec74d73a63337501dbad763
+
+
+図の説明
+http://lvh.me:8000/s/8f90276a272b446585262ce57c1eb8b3
+
+図のコメント
+http://lvh.me:8000/s/6445ab47f95046deba31263b92910a6e
+
+
+用語
+http://lvh.me:8000/s/39e9acbc28734430a551a7196203a7a1
