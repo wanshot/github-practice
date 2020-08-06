@@ -3,6 +3,7 @@
 * wan
 * haru
 
+* shimizukawa0
 * tell-k
 * wan
 * haru
