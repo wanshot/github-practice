@@ -3,7 +3,7 @@
 * wan
 * haru
 
-* new-shimizukawa
+* shimizukawa
 * tell-k
 * wan
 * haru
