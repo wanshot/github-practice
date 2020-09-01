@@ -1,14 +1,1 @@
-* shimizukawa
-* tell-k
-* wan
-* haru
-
-* shimizukawa
-* tell-k
-* wan
-* haru
-
-* shimizukawa
-* tell-k
-* wan
-* haru
+http://lvh.me:8000/s/56e73b581fa64b8a910f108e6554ff4d
