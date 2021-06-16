@@ -10,6 +10,8 @@ on:
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
+#     if: ${{ !contains(github.event.pull_request.title, '[skip ci]') }}  ## PRタイトルに[skip ci]が含まれている場合
+#     if: ${{ !github.event.pull_request.draft }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
