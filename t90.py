@@ -19,3 +19,4 @@ branches-ignore:
 - update
 - test
 - test
+- test
