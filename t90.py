@@ -25,3 +25,4 @@ branches-ignore:
 - cccc
 - dddd
 - eeee
+- ffff
