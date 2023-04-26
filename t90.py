@@ -23,3 +23,4 @@ branches-ignore:
 - aaaa
 - bbbb
 - cccc
+- dddd
