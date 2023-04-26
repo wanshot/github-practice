@@ -21,3 +21,4 @@ branches-ignore:
 - test
 - test
 - aaaa
+- bbbb
