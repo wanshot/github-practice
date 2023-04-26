@@ -22,3 +22,4 @@ branches-ignore:
 - test
 - aaaa
 - bbbb
+- cccc
