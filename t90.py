@@ -24,3 +24,4 @@ branches-ignore:
 - bbbb
 - cccc
 - dddd
+- eeee
