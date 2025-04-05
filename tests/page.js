@@ -22,3 +22,6 @@ clayreimann.listStarredRepos(function(err, repos) {
 });
 // ページURL
 // http://bp.lvh.me:8000/projects/test/pages/2
+//
+//
+http://lvh.me:8000/s/07f095a5781e4eb4a4ab9ef960f0a274
